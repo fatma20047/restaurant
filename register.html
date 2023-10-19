@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <style>
+      #Gender{
+        display:inline;
+      }
+      button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(211, 100%, 50%); 
+  color: hsl(0, 0%, 100%); 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+button:hover {
+  background-color: hsl(211, 100%, 35%);
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+     </style>
+   </head>
+     <body>
+      <fieldset>
+       <form>
+
+        <h1 style="text-align: center; " >Sign in</h1>
+        <p style="text-align: center;">
+        <input type="text" id="first name" placeholder="first name">
+        <input type="text" id="last name" placeholder="last name">
+      </p>
+      <p style="text-align: center;"> 
+          <input type="text" id="username" placeholder="username">
+          <input type="email" id="email" placeholder="222234@ppu,edu,ps" minlength="7" maxlength="10" >
+      </p>
+        
+      <p style="text-align: center;">
+            <input type="password" id="password"  placeholder="password">
+            <input type="password" id=" Confied password"   placeholder=" Confied password">
+       
+            <p style="text-align: center;">
+              <label id="Gender" for="gender">Gender:</label>
+              <input type="radio" id="Female" name="gender"> <label for="Female">Female</label>
+              <input type="radio" id="male" name="gender"> <label for="male">Male</label>
+            </p>
+     
+      <p style="text-align: center;"> 
+       <label for="bday">Date of birth</label>
+       <input type="date" id="bday">
+     </p>
+     <p style="text-align: center;">
+      <input type="submit">
+      <input type="reset">
+     </p>
+      </form>
+      </fieldset>
+      <button><a href="index.html">Back to main</a>  </button>
+
+    </body>
+    </html>
+    

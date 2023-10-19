@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <style>
+    #from0
+    {
+      text-align: center;
+      font-size: 30px;
+      background-color: aqua;
+      display:inline;
+   
+      
+    }
+    button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(211, 100%, 50%); 
+  color: hsl(0, 0%, 100%); 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+button:hover {
+  background-color: hsl(211, 100%, 35%);
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+   </style>
+  </head>
+  <body>
+   <fieldset>
+      <h1>Login</h1>
+    <form id="from0">
+      <label for="username">username:</label>
+      <input type="text" id="username" placeholder="username" minlength="7" maxlength="10" >
+       <br>
+      <label for="password">password:</label>
+      <input type="password" id="password"  placeholder="password" minlength="7" maxlength="10" required>
+      </fieldset>
+      <button><a href="index.html">Back to main</a>  </button>
+
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+  .A-label
+  {
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    font-family:serif;
+    text-align: center;
+    margin-right:10px;
+  }
+  .B-input
+  {
+    font-size: 20px;
+    text-align: center;
+    border-radius:5px;
+    
+  }
+  button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(211, 100%, 50%); 
+  color: hsl(0, 0%, 100%); 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+button:hover {
+  background-color: hsl(211, 100%, 35%);
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+  </style>
+ 
+ </head>
+ <body>
+  <form>
+   <fieldset style="background-color: aqua;">
+    <legend style="color:rgb(77, 53, 18);font-size: 50px;text-align: center;">Cash</legend>
+     
+    <label for="username" class="A-label">username:</label>
+    <input  type="text" id="username" placeholder="username" minlength="7" maxlength="10"  class="B-input" >
+    <br> <br>
+    <label for="email" class="A-label">email:</label>
+    <input type="email" id="email" placeholder="222234@ppu,edu,ps" minlength="7" maxlength="10"  class="B-input">
+    <br>    
+    <br> 
+    <label for="comment" class="A-label">comment:</label>
+    <textarea id="comment"  class="B-input" ></textarea>
+   <br>
+   <br>
+   <button  style="background-color: #EA3546;color: #fff; text-align: center;font-size: 17px;"> Send Message</button>
+
+     
+
+
+   </fieldset>
+  </form>
+  <button><a href="index.html">Back to main</a>  </button>
+
+ </body>
+
+</html>
